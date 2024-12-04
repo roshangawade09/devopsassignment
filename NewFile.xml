@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "My Suite" parallel = "tests">
+	<test thread-count="5" name="chromeTest">
+	<parameter name ="browser" value="Chrome"></parameter>
+		<classes>
+			<class name ="assignmentDevops.AmazonGridTest2"/>
+				</classes>
+				</test> <!-- Test -->
+				<test thread-count="5" name="firefoxTest">
+	<parameter name ="browser" value="Firefox"></parameter>
+		<classes>
+		<class name ="assignmentDevops.AmazonGridTest2"/>
+				</classes>
+				</test> <!-- Test -->
+				<test thread-count="5" name="edgeTest">
+	<parameter name ="browser" value="Edge"></parameter>
+		<classes>
+		<class name ="assignmentDevops.AmazonGridTest2"/>
+				</classes>
+				</test> <!-- Test -->
+				
+</suite> <!-- suite -->
